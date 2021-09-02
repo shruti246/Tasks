@@ -36,3 +36,7 @@
 	.related-author{
 		font-weight: bold;
 	}
+	ul + p{
+	font-weight: bold;  
+	font-size: 20px;	
+	}
