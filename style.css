@@ -4,7 +4,6 @@
 
 	h1{
 		font-size:26px;
-		
 		text-transform: uppercase;
 		font-style: italic;
 		color:blue;
@@ -28,7 +27,7 @@
 		font-size:20px;
 	}
 	footer p{
-		font-size:15px;
+		font-size:15px; /* Combinators */
 	}
 	.related{
 		list-style:none;
@@ -36,7 +35,31 @@
 	.related-author{
 		font-weight: bold;
 	}
+
 	ul + p{
 	font-weight: bold;  
-	font-size: 20px;	
+	font-size: 20px;	 /* Combinators */
+	}
+	a.header_link:link{
+		color:green;
+		text-transform: uppercase; /* Pseudo-classes */
+		text-decoration: none;  
+		padding: 10px 20px;
+	}
+	a.header_link:visited{
+		color:blue;
+	}
+	a.header_link:hover{
+		background-color: red;
+	}
+	
+	a.header_link:active{
+		color:pink;
+	}
+	a.added:hover{
+		color:yellow; 
+	}
+	p#small_head::first-line {
+	  color: #ff0000;
+	  font-variant: small-caps; /* Pseudo-element*/
 	}
