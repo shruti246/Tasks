@@ -28,6 +28,13 @@
 	}
 	footer p{
 		font-size:15px; /* Combinators */
+		color: red !important;
+	}
+	#copyright{
+		color: blue;
+	}
+	.copyright{
+		color:pink;
 	}
 	.related{
 		list-style:none;
@@ -51,6 +58,8 @@
 	}
 	a.header_link:hover{
 		background-color: red;
+		font-weight: bold;
+		text-decoration: underline orange;
 	}
 	
 	a.header_link:active{
